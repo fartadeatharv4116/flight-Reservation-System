@@ -1,10 +1,5 @@
 # Flight Reservation System — DSL Mini-Project
 
-**Student:** Fartade Atharv Parmeshwar  
-**Class:** SE-C  
-**Roll No.:** SECCOMP89  
-**Topic:** Implementation of Flight Reservation System [Searching and Sorting]
-
 ## Features
 - Tkinter GUI to view demo flights.
 - Linear Search by Flight ID, airline, source, or destination.
