@@ -1,0 +1,33 @@
+SAMPLE OUTPUT (illustrative)
+
+1) Initial flight list:
+FL101 | Deccan Air | Pune -> Delhi | Rs. 4500
+FL102 | Sky Maharashtra | Pune -> Mumbai | Rs. 1800
+FL103 | Indigo Demo | Mumbai -> Bengaluru | Rs. 3800
+... (12 demo records in the GUI)
+
+2) Linear Search query: Pune
+Matching demo flights include records where Pune appears as source or destination.
+The status bar reports the number of flight-record checks (up to 12).
+
+3) Binary Search query: FL105
+Result: FL105 | Deccan Air | Delhi -> Pune | Rs. 4700
+The number of midpoint comparisons is displayed in the GUI.
+
+4) Bubble Sort ascending by price:
+FL108 Rs. 1500
+FL102 Rs. 1800
+FL104 Rs. 2500
+FL111 Rs. 2700
+FL106 Rs. 3200
+FL110 Rs. 3600
+FL103 Rs. 3800
+FL109 Rs. 3900
+FL107 Rs. 4200
+FL101 Rs. 4500
+FL105 Rs. 4700
+FL112 Rs. 5200
+
+5) Demo reservation:
+Passenger enters a name after selecting a flight.
+A booking ID such as BK001 is displayed. Booking data is stored in memory only and is cleared when the application closes.
